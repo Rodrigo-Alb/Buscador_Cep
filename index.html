@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <section class="first-page" id="search_sec">
+        <h2>Consulte seu CEP</h2>
+        <div class="container">
+            <input type="text" placeholder="Digite seu CEP" name="cep" id="cep" class="cep">
+            <button class="btn" id="btn_search">Econtrar</button>
+            <p>Encontramos Qualquer Lugar do Brasil</p>
+            <p>Exemplo: 72015-180</p>
+        </div>
+    </section>
+
+    <section class="second-page" id="result_sec">
+        <div class="result_container">
+            <p class="result">Estado:</p><span id="state"> São Paulo</span>
+        </div>
+        
+        <div class="result_container">
+            <p class="result">Cidade:</p>
+            <span id="city"> Sp</span>
+            
+        </div>
+
+        <div class="result_container">
+            <p class="result">Rua:</p>
+            <span id="street"> sp</span>
+            
+        </div>
+        
+        <div class="result_container">
+            <p class="result">Bairro:</p>
+            <span id="neighborhood"> spp</span>
+            
+        </div>
+        <button class="btn" id="btn_newSearch">Nova Busca</button>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
